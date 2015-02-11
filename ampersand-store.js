@@ -7,6 +7,16 @@ var isFunction = require('amp-is-function');
 var classExtend = require('ampersand-class-extend');
 var Events = require('backbone-events-standalone');
 
+/**
+ * @class Store
+ * An interface to receive actions from a Flux Dispatcher. Can optionally
+ *
+ * @param {object} options
+ * @param {Model} [options.model]
+ * @param {Collection} [options.collection]
+ * @param {object} options.dispatcher a Flux dispatcher
+ */
+
 var Store = function (options) {
     options = options || {};
 
