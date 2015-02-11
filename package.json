@@ -1,0 +1,41 @@
+{
+  "name": "ampersand-store",
+  "version": "1.0.0",
+  "description": "A store for use with ampersand or backbone projects and flux dispatchers",
+  "main": "ampersand-store.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robrichard/ampersand-store.git"
+  },
+  "keywords": [
+    "ampersand",
+    "backbone",
+    "store",
+    "flux",
+    "dispatcher",
+    "model",
+    "collection"
+  ],
+  "author": "Rob Richard",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/robrichard/ampersand-store/issues"
+  },
+  "homepage": "https://github.com/robrichard/ampersand-store",
+  "dependencies": {
+    "amp-each": "^1.0.1",
+    "amp-extend": "^1.0.1",
+    "amp-is-function": "^1.0.1",
+    "amp-result": "^1.1.0",
+    "ampersand-class-extend": "^1.0.1",
+    "backbone-events-standalone": "^0.2.4"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.1.0",
+    "sinon": "^1.12.2"
+  }
+}
